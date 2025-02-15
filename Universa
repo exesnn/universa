@@ -1,0 +1,1243 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local Frame_5 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TextButton_13 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextButton_14 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextButton_15 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local UIPadding = Instance.new("UIPadding")
+local HomeButton = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local TextButton_16 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local HomeScrolling = Instance.new("ScrollingFrame")
+local Hometxt = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
+local Fps = Instance.new("TextLabel")
+local UICorner_27 = Instance.new("UICorner")
+local WelcomePlayer = Instance.new("TextLabel")
+local UICorner_28 = Instance.new("UICorner")
+local Game = Instance.new("TextLabel")
+local UICorner_29 = Instance.new("UICorner")
+local bounty = Instance.new("TextLabel")
+local UICorner_30 = Instance.new("UICorner")
+local timeestimated = Instance.new("TextLabel")
+local UICorner_31 = Instance.new("UICorner")
+local Players = Instance.new("TextLabel")
+local UICorner_32 = Instance.new("UICorner")
+local Ms = Instance.new("TextLabel")
+local UICorner_33 = Instance.new("UICorner")
+local Time = Instance.new("TextLabel")
+local UICorner_34 = Instance.new("UICorner")
+local minimizebind = Instance.new("TextLabel")
+local UICorner_35 = Instance.new("UICorner")
+local Crew = Instance.new("TextLabel")
+local UICorner_36 = Instance.new("UICorner")
+local Cash = Instance.new("TextLabel")
+local UICorner_37 = Instance.new("UICorner")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local UIPadding_2 = Instance.new("UIPadding")
+local NotificationFrame = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
+local Notification = Instance.new("TextLabel")
+local notificationtext = Instance.new("TextLabel")
+local UICorner_39 = Instance.new("UICorner")
+local Ok = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local Cancel = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.25, 0, 0.25, 0)
+Main.Size = UDim2.new(0, 651, 0, 354)
+
+UICorner.Parent = Main
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Size = UDim2.new(0, 651, 0, 39)
+
+UICorner_2.Parent = Frame
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.946154058, 0, 0.163846523, 0)
+TextButton.Size = UDim2.new(0, 28, 0, 24)
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = TextButton
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.892390609, 0, 0.163846523, 0)
+TextButton_2.Size = UDim2.new(0, 28, 0, 24)
+TextButton_2.Font = Enum.Font.FredokaOne
+TextButton_2.Text = "-"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = TextButton_2
+
+Frame_2.Parent = Main
+Frame_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.0115360199, 0, 0.120367534, 0)
+Frame_2.Size = UDim2.new(0, 146, 0, 304)
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = Frame_2
+
+Frame_3.Parent = Main
+Frame_3.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.251933068, 0, 0.120367534, 0)
+Frame_3.Size = UDim2.new(0, 480, 0, 305)
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = Frame_3
+
+Frame_4.Parent = Main
+Frame_4.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.0199999996, 0, 0.142000005, 0)
+Frame_4.Size = UDim2.new(0, 136, 0, 292)
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = Frame_4
+
+Frame_5.Parent = Main
+Frame_5.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.262097895, 0, 0.14200002, 0)
+Frame_5.Size = UDim2.new(0, 466, 0, 292)
+
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = Frame_5
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.0199692789, 0, 0.141242936, 0)
+ScrollingFrame.Size = UDim2.new(0, 136, 0, 292)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 1.54999995, 0)
+ScrollingFrame.ScrollBarThickness = 0
+
+UICorner_9.CornerRadius = UDim.new(0, 2)
+UICorner_9.Parent = ScrollingFrame
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.LayoutOrder = 13
+TextButton_3.Position = UDim2.new(0.0460000001, 0, 0.550999999, 0)
+TextButton_3.Size = UDim2.new(0, 124, 0, 32)
+TextButton_3.Font = Enum.Font.FredokaOne
+TextButton_3.Text = "      Autofarm"
+TextButton_3.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_3.TextSize = 14.000
+TextButton_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = TextButton_3
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.LayoutOrder = 9
+TextButton_4.Position = UDim2.new(0.0460000001, 0, 0.481999993, 0)
+TextButton_4.Size = UDim2.new(0, 124, 0, 32)
+TextButton_4.Font = Enum.Font.FredokaOne
+TextButton_4.Text = "      Visuals"
+TextButton_4.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_4.TextSize = 14.000
+TextButton_4.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = TextButton_4
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.LayoutOrder = 7
+TextButton_5.Position = UDim2.new(0.0460000001, 0, 0.414000005, 0)
+TextButton_5.Size = UDim2.new(0, 124, 0, 32)
+TextButton_5.Font = Enum.Font.FredokaOne
+TextButton_5.Text = "      Autobuy"
+TextButton_5.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_5.TextSize = 14.000
+TextButton_5.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = TextButton_5
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.LayoutOrder = 6
+TextButton_6.Position = UDim2.new(0.0460000001, 0, 0.344999999, 0)
+TextButton_6.Size = UDim2.new(0, 124, 0, 32)
+TextButton_6.Font = Enum.Font.FredokaOne
+TextButton_6.Text = "      Locations"
+TextButton_6.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_6.TextSize = 14.000
+TextButton_6.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_13.CornerRadius = UDim.new(0, 5)
+UICorner_13.Parent = TextButton_6
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.LayoutOrder = 4
+TextButton_7.Position = UDim2.new(0.0459998623, 0, 0.276597321, 0)
+TextButton_7.Size = UDim2.new(0, 124, 0, 32)
+TextButton_7.Font = Enum.Font.FredokaOne
+TextButton_7.Text = "      Toggles"
+TextButton_7.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_7.TextSize = 14.000
+TextButton_7.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_14.CornerRadius = UDim.new(0, 5)
+UICorner_14.Parent = TextButton_7
+
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.LayoutOrder = 3
+TextButton_8.Position = UDim2.new(0.0459998623, 0, 0.20927304, 0)
+TextButton_8.Size = UDim2.new(0, 124, 0, 32)
+TextButton_8.Font = Enum.Font.FredokaOne
+TextButton_8.Text = "      Target"
+TextButton_8.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_8.TextSize = 14.000
+TextButton_8.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_15.CornerRadius = UDim.new(0, 5)
+UICorner_15.Parent = TextButton_8
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.LayoutOrder = 5
+TextButton_9.Position = UDim2.new(0.0460000001, 0, 0.144999996, 0)
+TextButton_9.Size = UDim2.new(0, 124, 0, 32)
+TextButton_9.Font = Enum.Font.FredokaOne
+TextButton_9.Text = "      Combat"
+TextButton_9.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_9.TextSize = 14.000
+TextButton_9.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_16.CornerRadius = UDim.new(0, 5)
+UICorner_16.Parent = TextButton_9
+
+TextButton_10.Parent = ScrollingFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.LayoutOrder = 2
+TextButton_10.Position = UDim2.new(0.0460000001, 0, 0.0780000016, 0)
+TextButton_10.Size = UDim2.new(0, 124, 0, 32)
+TextButton_10.Font = Enum.Font.FredokaOne
+TextButton_10.Text = "      Main"
+TextButton_10.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_10.TextSize = 14.000
+TextButton_10.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_17.CornerRadius = UDim.new(0, 5)
+UICorner_17.Parent = TextButton_10
+
+TextButton_11.Parent = ScrollingFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.LayoutOrder = 12
+TextButton_11.Position = UDim2.new(0.0460000001, 0, 0.620000005, 0)
+TextButton_11.Size = UDim2.new(0, 124, 0, 32)
+TextButton_11.Font = Enum.Font.FredokaOne
+TextButton_11.Text = "      Animation"
+TextButton_11.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_11.TextSize = 14.000
+TextButton_11.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_18.CornerRadius = UDim.new(0, 5)
+UICorner_18.Parent = TextButton_11
+
+TextButton_12.Parent = ScrollingFrame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.LayoutOrder = 10
+TextButton_12.Position = UDim2.new(0.0460000001, 0, 0.689999998, 0)
+TextButton_12.Size = UDim2.new(0, 124, 0, 32)
+TextButton_12.Font = Enum.Font.FredokaOne
+TextButton_12.Text = "      Misc"
+TextButton_12.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_12.TextSize = 14.000
+TextButton_12.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_19.CornerRadius = UDim.new(0, 5)
+UICorner_19.Parent = TextButton_12
+
+TextButton_13.Parent = ScrollingFrame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.LayoutOrder = 11
+TextButton_13.Position = UDim2.new(0.0460000001, 0, 0.759000003, 0)
+TextButton_13.Size = UDim2.new(0, 124, 0, 32)
+TextButton_13.Font = Enum.Font.FredokaOne
+TextButton_13.Text = "      Powers"
+TextButton_13.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_13.TextSize = 14.000
+TextButton_13.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_20.CornerRadius = UDim.new(0, 5)
+UICorner_20.Parent = TextButton_13
+
+TextButton_14.Parent = ScrollingFrame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.LayoutOrder = 14
+TextButton_14.Position = UDim2.new(0.0390000008, 0, 0.828000009, 0)
+TextButton_14.Size = UDim2.new(0, 124, 0, 32)
+TextButton_14.Font = Enum.Font.FredokaOne
+TextButton_14.Text = "      Settings"
+TextButton_14.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_14.TextSize = 14.000
+TextButton_14.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_21.CornerRadius = UDim.new(0, 5)
+UICorner_21.Parent = TextButton_14
+
+TextButton_15.Parent = ScrollingFrame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.LayoutOrder = 15
+TextButton_15.Position = UDim2.new(0.0390000008, 0, 0.899999976, 0)
+TextButton_15.Size = UDim2.new(0, 124, 0, 32)
+TextButton_15.Font = Enum.Font.FredokaOne
+TextButton_15.Text = "      Credits"
+TextButton_15.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_15.TextSize = 14.000
+TextButton_15.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_22.CornerRadius = UDim.new(0, 5)
+UICorner_22.Parent = TextButton_15
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 4)
+
+UIPadding.Parent = ScrollingFrame
+UIPadding.PaddingTop = UDim.new(0, 5)
+
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = ScrollingFrame
+HomeButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+HomeButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeButton.BorderSizePixel = 0
+HomeButton.LayoutOrder = 1
+HomeButton.Position = UDim2.new(0.0460000001, 0, 0.00999999978, 0)
+HomeButton.Size = UDim2.new(0, 124, 0, 32)
+HomeButton.Font = Enum.Font.FredokaOne
+HomeButton.Text = "      Home"
+HomeButton.TextColor3 = Color3.fromRGB(71, 71, 71)
+HomeButton.TextSize = 14.000
+HomeButton.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_23.CornerRadius = UDim.new(0, 5)
+UICorner_23.Parent = HomeButton
+
+TextButton_16.Parent = ScrollingFrame
+TextButton_16.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.LayoutOrder = 16
+TextButton_16.Position = UDim2.new(0.0390000008, 0, 0.828000009, 0)
+TextButton_16.Size = UDim2.new(0, 124, 0, 32)
+TextButton_16.Font = Enum.Font.FredokaOne
+TextButton_16.Text = "      Cash Stuff"
+TextButton_16.TextColor3 = Color3.fromRGB(71, 71, 71)
+TextButton_16.TextSize = 14.000
+TextButton_16.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_24.CornerRadius = UDim.new(0, 5)
+UICorner_24.Parent = TextButton_16
+
+ImageLabel.Parent = Main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(58, 58, 58)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(-0.203000024, 0, -0.203175172, 0)
+ImageLabel.Rotation = 180.000
+ImageLabel.Size = UDim2.new(0, 915, 0, 496)
+ImageLabel.Image = "rbxassetid://102730815017142"
+
+UICorner_25.CornerRadius = UDim.new(500, 8)
+UICorner_25.Parent = ImageLabel
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.011536113, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 209, 0, 42)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = " Universa V.1 [Da Hood]"
+TextLabel.TextColor3 = Color3.fromRGB(198, 198, 198)
+TextLabel.TextSize = 21.000
+
+HomeScrolling.Name = "HomeScrolling"
+HomeScrolling.Parent = Main
+HomeScrolling.Active = true
+HomeScrolling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeScrolling.BackgroundTransparency = 1.000
+HomeScrolling.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeScrolling.BorderSizePixel = 0
+HomeScrolling.Position = UDim2.new(0.262097895, 0, 0.14200002, 0)
+HomeScrolling.Size = UDim2.new(0, 465, 0, 294)
+HomeScrolling.ScrollBarThickness = 7
+
+Hometxt.Name = "Hometxt"
+Hometxt.Parent = HomeScrolling
+Hometxt.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Hometxt.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hometxt.BorderSizePixel = 0
+Hometxt.LayoutOrder = 1
+Hometxt.Position = UDim2.new(0.0185622834, 0, 0.0174324457, 0)
+Hometxt.Size = UDim2.new(0, 445, 0, 35)
+Hometxt.Font = Enum.Font.FredokaOne
+Hometxt.Text = "Home"
+Hometxt.TextColor3 = Color3.fromRGB(198, 198, 198)
+Hometxt.TextSize = 31.000
+Hometxt.TextWrapped = true
+
+UICorner_26.Parent = Hometxt
+
+Fps.Name = "Fps"
+Fps.Parent = HomeScrolling
+Fps.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Fps.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fps.BorderSizePixel = 0
+Fps.LayoutOrder = 7
+Fps.Position = UDim2.new(0.0189999156, 0, 0.210307837, 0)
+Fps.Size = UDim2.new(0, 445, 0, 35)
+Fps.Font = Enum.Font.FredokaOne
+Fps.Text = "Loading FPS ..."
+Fps.TextColor3 = Color3.fromRGB(198, 198, 198)
+Fps.TextSize = 31.000
+Fps.TextWrapped = true
+
+UICorner_27.Parent = Fps
+
+WelcomePlayer.Name = "WelcomePlayer"
+WelcomePlayer.Parent = HomeScrolling
+WelcomePlayer.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+WelcomePlayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WelcomePlayer.BorderSizePixel = 0
+WelcomePlayer.LayoutOrder = 2
+WelcomePlayer.Position = UDim2.new(0.0187081918, 0, 0.0753243938, 0)
+WelcomePlayer.Size = UDim2.new(0, 445, 0, 35)
+WelcomePlayer.Font = Enum.Font.FredokaOne
+WelcomePlayer.Text = "Welcome Player123Example"
+WelcomePlayer.TextColor3 = Color3.fromRGB(198, 198, 198)
+WelcomePlayer.TextSize = 31.000
+WelcomePlayer.TextWrapped = true
+
+UICorner_28.Parent = WelcomePlayer
+
+Game.Name = "Game"
+Game.Parent = HomeScrolling
+Game.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Game.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Game.BorderSizePixel = 0
+Game.LayoutOrder = 6
+Game.Position = UDim2.new(0.0189999994, 0, 0.136829928, 0)
+Game.Size = UDim2.new(0, 445, 0, 35)
+Game.Font = Enum.Font.FredokaOne
+Game.Text = "Game:"
+Game.TextColor3 = Color3.fromRGB(198, 198, 198)
+Game.TextSize = 21.000
+Game.TextWrapped = true
+
+UICorner_29.Parent = Game
+
+bounty.Name = "bounty"
+bounty.Parent = HomeScrolling
+bounty.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+bounty.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bounty.BorderSizePixel = 0
+bounty.LayoutOrder = 5
+bounty.Position = UDim2.new(0.0189999994, 0, 0.25, 0)
+bounty.Size = UDim2.new(0, 445, 0, 35)
+bounty.Font = Enum.Font.FredokaOne
+bounty.Text = "Bounty:"
+bounty.TextColor3 = Color3.fromRGB(198, 198, 198)
+bounty.TextSize = 21.000
+bounty.TextWrapped = true
+
+UICorner_30.Parent = bounty
+
+timeestimated.Name = "time estimated"
+timeestimated.Parent = HomeScrolling
+timeestimated.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+timeestimated.BorderColor3 = Color3.fromRGB(0, 0, 0)
+timeestimated.BorderSizePixel = 0
+timeestimated.LayoutOrder = 9
+timeestimated.Position = UDim2.new(0.0189999994, 0, 0.428000003, 0)
+timeestimated.Size = UDim2.new(0, 445, 0, 35)
+timeestimated.Font = Enum.Font.FredokaOne
+timeestimated.Text = "Time:"
+timeestimated.TextColor3 = Color3.fromRGB(198, 198, 198)
+timeestimated.TextSize = 21.000
+timeestimated.TextWrapped = true
+
+UICorner_31.Parent = timeestimated
+
+Players.Name = "Players"
+Players.Parent = HomeScrolling
+Players.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Players.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Players.BorderSizePixel = 0
+Players.LayoutOrder = 11
+Players.Position = UDim2.new(0.0189999994, 0, 0.486999989, 0)
+Players.Size = UDim2.new(0, 445, 0, 35)
+Players.Font = Enum.Font.FredokaOne
+Players.Text = "Players:"
+Players.TextColor3 = Color3.fromRGB(198, 198, 198)
+Players.TextSize = 21.000
+Players.TextWrapped = true
+
+UICorner_32.Parent = Players
+
+Ms.Name = "Ms"
+Ms.Parent = HomeScrolling
+Ms.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Ms.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ms.BorderSizePixel = 0
+Ms.LayoutOrder = 8
+Ms.Position = UDim2.new(0.0189999994, 0, 0.545000017, 0)
+Ms.Size = UDim2.new(0, 445, 0, 35)
+Ms.Font = Enum.Font.FredokaOne
+Ms.Text = "Ping: "
+Ms.TextColor3 = Color3.fromRGB(198, 198, 198)
+Ms.TextSize = 21.000
+Ms.TextWrapped = true
+
+UICorner_33.Parent = Ms
+
+Time.Name = "Time"
+Time.Parent = HomeScrolling
+Time.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Time.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Time.BorderSizePixel = 0
+Time.LayoutOrder = 10
+Time.Position = UDim2.new(0.0189999994, 0, 0.605000019, 0)
+Time.Size = UDim2.new(0, 445, 0, 35)
+Time.Font = Enum.Font.FredokaOne
+Time.Text = "Time:"
+Time.TextColor3 = Color3.fromRGB(198, 198, 198)
+Time.TextSize = 15.000
+Time.TextWrapped = true
+
+UICorner_34.Parent = Time
+
+minimizebind.Name = "minimize bind"
+minimizebind.Parent = HomeScrolling
+minimizebind.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+minimizebind.BorderColor3 = Color3.fromRGB(0, 0, 0)
+minimizebind.BorderSizePixel = 0
+minimizebind.LayoutOrder = 12
+minimizebind.Position = UDim2.new(0.0189999994, 0, 0.660000026, 0)
+minimizebind.Size = UDim2.new(0, 445, 0, 35)
+minimizebind.Font = Enum.Font.FredokaOne
+minimizebind.Text = "Minimize Bind:"
+minimizebind.TextColor3 = Color3.fromRGB(198, 198, 198)
+minimizebind.TextSize = 15.000
+minimizebind.TextWrapped = true
+
+UICorner_35.Parent = minimizebind
+
+Crew.Name = "Crew"
+Crew.Parent = HomeScrolling
+Crew.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Crew.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Crew.BorderSizePixel = 0
+Crew.LayoutOrder = 4
+Crew.Position = UDim2.new(0.0189999994, 0, 0.307000011, 0)
+Crew.Size = UDim2.new(0, 445, 0, 35)
+Crew.Font = Enum.Font.FredokaOne
+Crew.Text = "Crew:"
+Crew.TextColor3 = Color3.fromRGB(198, 198, 198)
+Crew.TextSize = 21.000
+Crew.TextWrapped = true
+
+UICorner_36.Parent = Crew
+
+Cash.Name = "Cash"
+Cash.Parent = HomeScrolling
+Cash.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Cash.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cash.BorderSizePixel = 0
+Cash.LayoutOrder = 3
+Cash.Position = UDim2.new(0.0189999994, 0, 0.369491518, 0)
+Cash.Size = UDim2.new(0, 445, 0, 35)
+Cash.Font = Enum.Font.FredokaOne
+Cash.Text = "cash:"
+Cash.TextColor3 = Color3.fromRGB(198, 198, 198)
+Cash.TextSize = 21.000
+Cash.TextWrapped = true
+
+UICorner_37.Parent = Cash
+
+UIListLayout_2.Parent = HomeScrolling
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 5)
+
+UIPadding_2.Parent = HomeScrolling
+UIPadding_2.PaddingTop = UDim.new(0, 8)
+
+NotificationFrame.Name = "NotificationFrame"
+NotificationFrame.Parent = ScreenGui
+NotificationFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+NotificationFrame.BackgroundTransparency = 0.080
+NotificationFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NotificationFrame.BorderSizePixel = 0
+NotificationFrame.Position = UDim2.new(0.818850338, 0, 0.803784609, 0)
+NotificationFrame.Size = UDim2.new(0, 228, 0, 124)
+NotificationFrame.Visible = false
+
+UICorner_38.CornerRadius = UDim.new(0, 5)
+UICorner_38.Parent = NotificationFrame
+
+Notification.Name = "Notification!"
+Notification.Parent = NotificationFrame
+Notification.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Notification.BackgroundTransparency = 1.000
+Notification.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Notification.BorderSizePixel = 0
+Notification.Position = UDim2.new(0.0614035092, 0, -0.0810810775, 0)
+Notification.Size = UDim2.new(0, 200, 0, 50)
+Notification.Font = Enum.Font.FredokaOne
+Notification.Text = "Notification!"
+Notification.TextColor3 = Color3.fromRGB(198, 198, 198)
+Notification.TextSize = 19.000
+
+notificationtext.Name = "notificationtext"
+notificationtext.Parent = NotificationFrame
+notificationtext.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+notificationtext.BackgroundTransparency = 0.800
+notificationtext.BorderColor3 = Color3.fromRGB(0, 0, 0)
+notificationtext.BorderSizePixel = 0
+notificationtext.Position = UDim2.new(0.0263141841, 0, 0.273470491, 0)
+notificationtext.Size = UDim2.new(0, 215, 0, 58)
+notificationtext.Font = Enum.Font.FredokaOne
+notificationtext.Text = "The text example."
+notificationtext.TextColor3 = Color3.fromRGB(143, 143, 143)
+notificationtext.TextSize = 12.000
+notificationtext.TextWrapped = true
+
+UICorner_39.CornerRadius = UDim.new(0, 5)
+UICorner_39.Parent = notificationtext
+
+Ok.Name = "Ok"
+Ok.Parent = NotificationFrame
+Ok.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Ok.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ok.BorderSizePixel = 0
+Ok.Position = UDim2.new(0.0232399385, 0, 0.7922526, 0)
+Ok.Size = UDim2.new(0, 103, 0, 22)
+Ok.Font = Enum.Font.FredokaOne
+Ok.Text = "Ok"
+Ok.TextColor3 = Color3.fromRGB(198, 198, 198)
+Ok.TextSize = 14.000
+
+UICorner_40.CornerRadius = UDim.new(0, 5)
+UICorner_40.Parent = Ok
+
+Cancel.Name = "Cancel"
+Cancel.Parent = NotificationFrame
+Cancel.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Cancel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cancel.BorderSizePixel = 0
+Cancel.Position = UDim2.new(0.514468014, 0, 0.7922526, 0)
+Cancel.Size = UDim2.new(0, 103, 0, 22)
+Cancel.Font = Enum.Font.FredokaOne
+Cancel.Text = "Cancel"
+Cancel.TextColor3 = Color3.fromRGB(198, 198, 198)
+Cancel.TextSize = 14.000
+
+UICorner_41.CornerRadius = UDim.new(0, 5)
+UICorner_41.Parent = Cancel
+
+-- Scripts:
+
+local function JPXVTY_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local button = script.Parent  -- Reference to the button
+	local main = button.Parent.Parent  -- "Main" frame
+	
+	button.MouseButton1Click:Connect(function()
+		main:Destroy()  -- Completely removes the Main GUI
+	end)
+	
+end
+coroutine.wrap(JPXVTY_fake_script)()
+local function VADB_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local button = script.Parent
+	local screenGui = button:FindFirstAncestorOfClass("ScreenGui") -- Finds the GUI
+	local mainFrame = screenGui:FindFirstChild("Main") -- Replace "Main" with your actual frame name
+	local userInput = game:GetService("UserInputService")
+	
+	local minimized = false
+	local keybind = Enum.KeyCode.V -- Default keybind
+	
+	-- Function to toggle GUI visibility
+	local function toggleGUI()
+		if mainFrame then
+			minimized = not minimized
+			mainFrame.Visible = not minimized -- Hides or shows the main frame
+		else
+			warn("Main frame not found!")
+		end
+	end
+	
+	-- Button Click Event
+	button.MouseButton1Click:Connect(toggleGUI)
+	
+	-- Keybind Event
+	userInput.InputBegan:Connect(function(input, gameProcessed)
+		if not gameProcessed and input.KeyCode == keybind then
+			toggleGUI()
+		end
+	end)
+	
+end
+coroutine.wrap(VADB_fake_script)()
+local function QGGAOZQ_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	local mainButton = script.Parent
+	local homeScrolling = mainButton.Parent.Parent:FindFirstChild("HomeScrolling") -- Adjust path if needed
+	
+	mainButton.MouseButton1Click:Connect(function()
+		if homeScrolling then
+			homeScrolling.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(QGGAOZQ_fake_script)()
+local function PVKH_fake_script() -- HomeButton.LocalScript 
+	local script = Instance.new('LocalScript', HomeButton)
+
+	local homeButton = script.Parent
+	local homeScrolling = homeButton.Parent.Parent:FindFirstChild("HomeScrolling") -- Adjust if needed
+	
+	local defaultColor = Color3.fromRGB(71, 71, 71)
+	local activeColor = Color3.fromRGB(255, 255, 255) -- White
+	
+	local function updateButtonColor()
+		if homeScrolling and homeScrolling.Visible then
+			homeButton.TextColor3 = activeColor
+		else
+			homeButton.TextColor3 = defaultColor
+		end
+	end
+	
+	-- Detect when visibility changes
+	homeScrolling:GetPropertyChangedSignal("Visible"):Connect(updateButtonColor)
+	
+	-- Run at start in case it's already visible
+	updateButtonColor()
+	
+	local homeButton = script.Parent
+	local homeScrolling = homeButton.Parent.Parent:FindFirstChild("HomeScrolling") -- Adjust path if needed
+	
+	homeButton.MouseButton1Click:Connect(function()
+		if homeScrolling then
+			homeScrolling.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(PVKH_fake_script)()
+local function AOMNX_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local frame = script.Parent -- The "Main" frame
+	local dragging = false
+	local dragInput, mousePos, framePos
+	local userInputService = game:GetService("UserInputService")
+	local tweenService = game:GetService("TweenService")
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			mousePos = input.Position
+			framePos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	userInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			local delta = input.Position - mousePos
+			local targetPosition = UDim2.new(
+				framePos.X.Scale, framePos.X.Offset + delta.X,
+				framePos.Y.Scale, framePos.Y.Offset + delta.Y
+			)
+	
+			-- Slower movement by increasing the tween time
+			local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out) -- Slower, smooth follow
+			local tween = tweenService:Create(frame, tweenInfo, {Position = targetPosition})
+			tween:Play()
+		end
+	end)
+	
+end
+coroutine.wrap(AOMNX_fake_script)()
+local function VNDJ_fake_script() -- Fps.LocalScript 
+	local script = Instance.new('LocalScript', Fps)
+
+	local fpsLabel = script.Parent
+	local runService = game:GetService("RunService")
+	
+	local frameCount = 0
+	local lastTime = tick()
+	
+	runService.RenderStepped:Connect(function()
+		frameCount = frameCount + 1
+		local currentTime = tick()
+	
+		if currentTime - lastTime >= 1 then
+			local fps = frameCount / (currentTime - lastTime)
+			frameCount = 0
+			lastTime = currentTime
+	
+			-- Update Label with FPS only
+			fpsLabel.Text = "FPS: " .. math.floor(fps)
+		end
+	end)
+	
+end
+coroutine.wrap(VNDJ_fake_script)()
+local function LBYF_fake_script() -- WelcomePlayer.LocalScript 
+	local script = Instance.new('LocalScript', WelcomePlayer)
+
+	local label = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	label.Text = "Welcome, " .. player.Name
+	
+end
+coroutine.wrap(LBYF_fake_script)()
+local function PHBMWFQ_fake_script() -- Game.LocalScript 
+	local script = Instance.new('LocalScript', Game)
+
+	local MarketplaceService = game:GetService("MarketplaceService")
+	local RunService = game:GetService("RunService")
+	
+	local GameLabel = script.Parent  -- The TextLabel the script is inside
+	
+	if not GameLabel:IsA("TextLabel") then
+		warn("Script is not inside a TextLabel!")
+		return
+	end
+	
+	-- Default text while loading
+	GameLabel.Text = "Game: Loading..."
+	
+	-- Function to get the game name
+	local function getGameName()
+		local placeId = game.PlaceId
+		local gameName = "FredokaOne Game"
+	
+		-- Try to get the game name from MarketplaceService
+		if not RunService:IsStudio() then
+			local success, result = pcall(function()
+				return MarketplaceService:GetProductInfo(placeId).Name
+			end)
+	
+			if success and result then
+				gameName = result
+			end
+		else
+			gameName = "Studio Test Game"
+		end
+	
+		return gameName
+	end
+	
+	-- Update the TextLabel with the game name
+	GameLabel.Text = "Game: " .. getGameName()
+	
+end
+coroutine.wrap(PHBMWFQ_fake_script)()
+local function DMAO_fake_script() -- bounty.LocalScript 
+	local script = Instance.new('LocalScript', bounty)
+
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local BountyLabel = script.Parent -- This should be the "bounty" TextLabel
+	
+	-- Make sure the label exists
+	if not BountyLabel or not BountyLabel:IsA("TextLabel") then
+		warn("Bounty Label not found or not a TextLabel!")
+		return
+	end
+	
+	-- Function to update bounty text
+	local function updateBounty()
+		local leaderstats = LocalPlayer:FindFirstChild("leaderstats")
+		if leaderstats then
+			local wantedStat = leaderstats:FindFirstChild("Wanted")
+			if wantedStat then
+				BountyLabel.Text = "Bounty: " .. tostring(wantedStat.Value)
+				return
+			end
+		end
+		BountyLabel.Text = "Bounty: Not Found"
+	end
+	
+	-- Wait for leaderstats and Wanted to load
+	task.spawn(function()
+		while not LocalPlayer:FindFirstChild("leaderstats") or not LocalPlayer.leaderstats:FindFirstChild("Wanted") do
+			task.wait(1)
+		end
+	
+		-- Update once found
+		updateBounty()
+	
+		-- Update the label every time the value changes
+		LocalPlayer.leaderstats.Wanted:GetPropertyChangedSignal("Value"):Connect(updateBounty)
+	end)
+	
+end
+coroutine.wrap(DMAO_fake_script)()
+local function GCXI_fake_script() -- timeestimated.LocalScript 
+	local script = Instance.new('LocalScript', timeestimated)
+
+	local textLabel = script.Parent  -- The TextLabel this script is inside
+	local startTime = os.time()  -- Get the current server time when the player joins
+	
+	while true do
+		-- Get the time difference
+		local elapsedTime = os.time() - startTime
+		local minutes = math.floor(elapsedTime / 60)
+		local seconds = elapsedTime % 60
+	
+		-- Update the label text
+		textLabel.Text = string.format("Time Elapsed: %d minutes, %d seconds", minutes, seconds)
+	
+		-- Wait 1 second before updating again
+		task.wait(1)
+	end
+	
+end
+coroutine.wrap(GCXI_fake_script)()
+local function OJWTL_fake_script() -- Players.LocalScript 
+	local script = Instance.new('LocalScript', Players)
+
+	local textLabel = script.Parent  -- Reference to the TextLabel
+	local players = game:GetService("Players")  -- Get the Players service
+	
+	local function updatePlayerCount()
+		textLabel.Text = "Players: " .. #players:GetPlayers()
+	end
+	
+	-- Update the count when a player joins or leaves
+	players.PlayerAdded:Connect(updatePlayerCount)
+	players.PlayerRemoving:Connect(updatePlayerCount)
+	
+	-- Initial update
+	updatePlayerCount()
+	
+end
+coroutine.wrap(OJWTL_fake_script)()
+local function ELBAYO_fake_script() -- Ms.LocalScript 
+	local script = Instance.new('LocalScript', Ms)
+
+	local textLabel = script.Parent  -- Reference to the TextLabel
+	local player = game:GetService("Players").LocalPlayer  -- Get the local player
+	local runService = game:GetService("RunService")  -- Used for updating every frame
+	
+	local function updatePing()
+		local ping = math.floor(player:GetNetworkPing() * 1000)  -- Convert to ms
+		textLabel.Text = "Ping: " .. ping .. "ms"
+	end
+	
+	-- Update ping every 1 second
+	while true do
+		updatePing()
+		task.wait(0.3)
+	end
+	
+end
+coroutine.wrap(ELBAYO_fake_script)()
+local function RZLIUGE_fake_script() -- Time.LocalScript 
+	local script = Instance.new('LocalScript', Time)
+
+	local textLabel = script.Parent
+	
+	-- Function to format time in HH:MM:SS
+	local function formatTime(hour, min, sec)
+		return string.format("%02d:%02d:%02d", hour, min, sec)
+	end
+	
+	-- Function to get current times
+	local function updateTime()
+		local now = os.date("!*t") -- Get current UTC time
+	
+		-- Convert to different time zones
+		local europeHour = (now.hour + 1) % 24  -- UTC+1 (Berlin, Paris)
+		local eastUSHour = (now.hour - 5) % 24  -- UTC-5 (New York)
+		local westUSHour = (now.hour - 8) % 24  -- UTC-8 (Los Angeles)
+	
+		-- Format time
+		local europeTime = formatTime(europeHour, now.min, now.sec)
+		local eastUSTime = formatTime(eastUSHour, now.min, now.sec)
+		local westUSTime = formatTime(westUSHour, now.min, now.sec)
+	
+		-- Update the label
+		textLabel.Text = "🇪🇺 EU: " .. europeTime .. " | 🇺🇸 EST: " .. eastUSTime .. " | 🇺🇸 PST: " .. westUSTime
+	end
+	
+	-- Update every second
+	while true do
+		updateTime()
+		task.wait(1)
+	end
+	
+end
+coroutine.wrap(RZLIUGE_fake_script)()
+local function IXMHUT_fake_script() -- minimizebind.LocalScript 
+	local script = Instance.new('LocalScript', minimizebind)
+
+	local textLabel = script.Parent
+	local replicatedStorage = game:GetService("ReplicatedStorage")
+	
+	-- Find or create the BindableEvent for keybind changes
+	local keybindEvent = replicatedStorage:FindFirstChild("KeybindChanged")
+	
+	if not keybindEvent then
+		keybindEvent = Instance.new("BindableEvent")
+		keybindEvent.Name = "KeybindChanged"
+		keybindEvent.Parent = replicatedStorage
+	end
+	
+	-- Default keybind
+	local currentKeybind = "V"
+	textLabel.Text = "Minimize Bind: " .. currentKeybind
+	
+	-- Update label when keybind changes
+	keybindEvent.Event:Connect(function(newKey)
+		currentKeybind = newKey.Name
+		textLabel.Text = "Minimize Bind: " .. currentKeybind
+	end)
+	
+end
+coroutine.wrap(IXMHUT_fake_script)()
+local function DMIDTA_fake_script() -- Crew.LocalScript 
+	local script = Instance.new('LocalScript', Crew)
+
+	local crewLabel = script.Parent -- Assuming this is the label where the crew will show
+	local player = game.Players.LocalPlayer
+	
+	-- Wait for the crew data to load
+	local crewData = player:WaitForChild("DataFolder"):WaitForChild("Information"):WaitForChild("Crew")
+	
+	-- Update the label text to show the crew you're in
+	crewLabel.Text = "Crew: " .. (crewData.Value == "" and "None" or crewData.Value)
+	
+end
+coroutine.wrap(DMIDTA_fake_script)()
+local function FHZXVY_fake_script() -- Cash.LocalScript 
+	local script = Instance.new('LocalScript', Cash)
+
+	local label = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	local function formatNumber(amount)
+		local formatted = tostring(amount):reverse():gsub("(%d%d%d)", "%1,"):reverse()
+		if formatted:sub(1, 1) == "," then
+			formatted = formatted:sub(2)
+		end
+		return formatted
+	end
+	
+	local function updateCash()
+		local cashValue = player:FindFirstChild("DataFolder") and player.DataFolder:FindFirstChild("Currency")
+		if cashValue then
+			label.Text = "Cash: $" .. formatNumber(cashValue.Value)
+		end
+	end
+	
+	-- Update when cash changes
+	player:WaitForChild("DataFolder"):WaitForChild("Currency").Changed:Connect(updateCash)
+	
+	-- Initial update
+	updateCash()
+	
+end
+coroutine.wrap(FHZXVY_fake_script)()
+local function DXPCH_fake_script() -- HomeScrolling.Script 
+	local script = Instance.new('Script', HomeScrolling)
+
+	
+end
+coroutine.wrap(DXPCH_fake_script)()
+local function ISAAJE_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local gui = script.Parent
+	local userInput = game:GetService("UserInputService")
+	local replicatedStorage = game:GetService("ReplicatedStorage")
+	
+	-- Create a BindableEvent for keybind changes
+	if not replicatedStorage:FindFirstChild("KeybindChanged") then
+		local keybindEvent = Instance.new("BindableEvent")
+		keybindEvent.Name = "KeybindChanged"
+		keybindEvent.Parent = replicatedStorage
+	end
+	
+	local keybindEvent = replicatedStorage:FindFirstChild("KeybindChanged")
+	
+	-- Default keybind (Changeable)
+	local currentKeybind = Enum.KeyCode.V
+	local isMinimized = false
+	
+	-- Function to minimize GUI
+	local function toggleGUI()
+		isMinimized = not isMinimized
+		gui.Visible = not isMinimized
+	end
+	
+	-- Detect keypress
+	userInput.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then return end
+		if input.KeyCode == currentKeybind then
+			toggleGUI()
+		end
+	end)
+	
+	-- Change Keybind Function
+	keybindEvent.Event:Connect(function(newKey)
+		currentKeybind = newKey
+	end)
+	
+end
+coroutine.wrap(ISAAJE_fake_script)()
+local function SKATLXT_fake_script() -- Ok.LocalScript 
+	local script = Instance.new('LocalScript', Ok)
+
+	
+end
+coroutine.wrap(SKATLXT_fake_script)()
+local function JXGU_fake_script() -- Cancel.LocalScript 
+	local script = Instance.new('LocalScript', Cancel)
+
+	
+end
+coroutine.wrap(JXGU_fake_script)()
